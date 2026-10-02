@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0095"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0095-1",
+      "verdict": "SUPPORTED",
+      "claim_amount_usd": 0.5,
+      "matched_evidence": [
+        "RCV-0095"
+      ],
+      "explanation": "The receiving record RCV-0095 indicates 'unit_damage: water' for SKU-CANDLE-3, which supports the inbound_defect_fee charge for one unit.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0095-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "There is no evidence that directly supports or contradicts the fulfilment_fee_weight_tier charge. The authoritative_requirements are also missing, making it impossible to determine if the charge is valid.",
+      "status": "completed"
+    }
+  ]
+}

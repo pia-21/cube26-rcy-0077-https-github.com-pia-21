@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0011"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0011-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence directly supports this fulfillment fee charge. While receiving and prep records exist for the unit and SKU, there is no evidence that explicitly details the fulfillment process, weight tier, or confirms the specific fulfillment activity that this charge pertains to.",
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0061"
+  },
+  "status": "pending_review",
+  "results": [
+    {
+      "charge_id": "FEE-0061-1",
+      "verdict": "UNCERTAIN",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "AI evaluation could not be completed. No recovery claim was created. Reason: AI response must be an object.",
+      "status": "pending_review"
+    },
+    {
+      "charge_id": "FEE-0061-2",
+      "verdict": "UNCERTAIN",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "AI evaluation could not be completed. No recovery claim was created. Reason: AI response must be an object.",
+      "status": "pending_review"
+    }
+  ]
+}

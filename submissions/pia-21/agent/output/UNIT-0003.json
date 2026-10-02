@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0003"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0003-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support a lost inbound charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0003-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support a fulfillment fee weight tier charge. The provided receiving evidence shows a quantity discrepancy, but this does not automatically support a fulfillment fee.",
+      "status": "completed"
+    }
+  ]
+}

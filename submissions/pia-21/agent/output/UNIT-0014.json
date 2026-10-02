@@ -1,0 +1,43 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0014"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0014-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for an inbound defect fee, but there is no evidence in the provided input to support or contradict this claim. The receiving evidence shows no unit damage. Therefore, the verdict is SILENT.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0014-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for lost inbound inventory. There is no evidence provided that directly supports or contradicts this charge. The receiving evidence shows all units were received. Therefore, the verdict is SILENT.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0014-3",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is a fulfillment fee. There is no evidence in the provided input to support or contradict this charge. Specifically, there is no evidence detailing the weight or tier of the item for fulfillment fee calculation. Therefore, the verdict is SILENT.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0014-4",
+      "verdict": "CONTRADICTED",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [
+        "RTN-0014"
+      ],
+      "explanation": "The charge is for a refund issued because the item was not returned. However, the evidence record RTN-0014 explicitly documents the return of the item for order ORD-DUMMY-50014. Therefore, the charge is contradicted.",
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0036"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0036-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No authoritative requirements were provided for the 'fulfilment_fee_weight_tier' charge type. Therefore, it is not possible to determine if the provided evidence supports or contradicts the charge.",
+      "status": "completed"
+    }
+  ]
+}

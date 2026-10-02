@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0076"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0076-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support a lost inbound charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0076-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support a fulfillment fee charge. The provided receiving and prep evidence do not directly support this fee type.",
+      "status": "completed"
+    }
+  ]
+}

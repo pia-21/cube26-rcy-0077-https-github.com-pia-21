@@ -1,0 +1,33 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0071"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0071-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support the inbound_defect_fee charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0071-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support the damaged_in_warehouse charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0071-3",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied that directly supports the fulfillment_fee_weight_tier charge. The prep record is not sufficient to support this charge.",
+      "status": "completed"
+    }
+  ]
+}

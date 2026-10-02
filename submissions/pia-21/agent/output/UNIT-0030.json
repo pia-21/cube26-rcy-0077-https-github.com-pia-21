@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0030"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0030-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0,
+      "matched_evidence": [],
+      "explanation": "The charge is for a fulfillment fee based on weight tier. There is no evidence provided that specifies the weight or tier of the product, nor is there any explicit mention of fulfillment or shipping details that would support this charge. Therefore, the charge is considered SILENT due to the lack of supporting evidence.",
+      "status": "completed"
+    }
+  ]
+}

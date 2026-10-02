@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0064"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0064-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "There is no evidence in the input that supports the 'lost_inbound' charge for one unit of SKU-BOTTLE-750. The receiving evidence shows that 44 units were received against an order of 48, indicating a discrepancy, but does not explicitly state that the item was lost inbound. The charge is for 'lost_inbound', and the provided evidence does not confirm this specific event.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0064-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "There is no authoritative requirement provided to evaluate the 'fulfilment_fee_weight_tier' charge. The available evidence (prep, receiving, returns) does not directly support or contradict this fee. Without requirements, a defensible conclusion cannot be made.",
+      "status": "completed"
+    }
+  ]
+}

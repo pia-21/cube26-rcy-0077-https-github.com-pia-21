@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0035"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0035-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support the inbound defect fee charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0035-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied that details a fulfillment fee based on weight tier.",
+      "status": "completed"
+    }
+  ]
+}

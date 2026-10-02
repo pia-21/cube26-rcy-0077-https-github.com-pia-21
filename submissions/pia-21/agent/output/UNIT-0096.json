@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0096"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0096-1",
+      "verdict": "UNCERTAIN",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for an inbound defect fee. The evidence shows a receiving record (RCV-0096) with a 'quality_flags' of 'missing_components'. However, there is no explicit link in the evidence or authoritative requirements that this 'missing_components' flag constitutes a defect fee or meets the criteria for it. Thus, it is uncertain if this qualifies for the fee.",
+      "status": "completed"
+    }
+  ]
+}

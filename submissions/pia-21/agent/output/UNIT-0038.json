@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0038"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0038-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for a fulfillment fee. There is no evidence provided that supports or contradicts this charge, therefore it is SILENT.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0038-2",
+      "verdict": "SUPPORTED",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [
+        "RTN-0038"
+      ],
+      "explanation": "The charge is for an item not returned. Evidence 'RTN-0038' shows the item was returned, which contradicts the charge basis. However, the charge amount is 0.00, so the claim amount is 0.00.",
+      "status": "completed"
+    }
+  ]
+}

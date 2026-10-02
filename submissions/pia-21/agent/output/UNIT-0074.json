@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0074"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0074-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied to support or contradict the inbound_defect_fee charge. The receiving evidence notes carton damage (crushing) but does not explicitly link this to a defect in the units received or to this specific charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0074-2",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "There is no evidence that directly supports or contradicts the fulfillment fee based on weight tier. While prep evidence exists for the unit, it does not provide information about the weight or tier relevant to this charge. Authoritative requirements are also missing.",
+      "status": "completed"
+    }
+  ]
+}

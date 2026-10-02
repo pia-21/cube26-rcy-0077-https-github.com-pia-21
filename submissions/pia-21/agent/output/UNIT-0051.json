@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0051"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0051-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No authoritative requirements were provided to determine if the fulfillment fee based on weight tier is applicable. Therefore, the charge cannot be supported or contradicted.",
+      "status": "completed"
+    }
+  ]
+}

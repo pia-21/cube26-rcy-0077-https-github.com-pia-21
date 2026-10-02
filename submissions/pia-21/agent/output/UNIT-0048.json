@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0048"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0048-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "No evidence was supplied that supports the fulfillment fee charge. The evidence provided includes receiving and prep records, but no fulfillment-specific records such as shipping or weight information, which are required to support a fulfillment fee charge.",
+      "status": "completed"
+    },
+    {
+      "charge_id": "FEE-0048-2",
+      "verdict": "SUPPORTED",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [
+        "RTN-0048"
+      ],
+      "explanation": "The charge is for a refund issued for an item not returned. Evidence record RTN-0048 explicitly documents the return of the item for order ORD-DUMMY-50048, with an 'operator_disposition' of 'restock'. This contradicts the premise of the charge that the item was not returned.",
+      "status": "completed"
+    }
+  ]
+}

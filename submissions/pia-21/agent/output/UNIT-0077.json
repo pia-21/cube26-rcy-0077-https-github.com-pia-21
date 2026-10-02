@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_alpha",
+    "unit_id": "UNIT-0077"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0077-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for a fulfillment fee based on weight tier. No evidence was provided to determine the weight or tier of the SKU-LAMP-LED. Therefore, the charge cannot be supported or contradicted.",
+      "status": "completed"
+    }
+  ]
+}

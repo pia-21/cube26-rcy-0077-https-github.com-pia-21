@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0090"
+  },
+  "status": "completed",
+  "results": [
+    {
+      "charge_id": "FEE-0090-1",
+      "verdict": "SILENT",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "The charge is for a fulfillment fee based on weight tier. However, there is no evidence provided that specifies the weight of the item or its corresponding weight tier. The provided receiving and prep records do not contain this information. Therefore, the evidence is insufficient to support or contradict the charge.",
+      "status": "completed"
+    }
+  ]
+}

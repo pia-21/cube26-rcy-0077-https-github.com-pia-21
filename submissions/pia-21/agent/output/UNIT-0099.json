@@ -1,0 +1,17 @@
+{
+  "unit": {
+    "org_id": "org_demo_bravo",
+    "unit_id": "UNIT-0099"
+  },
+  "status": "pending_review",
+  "results": [
+    {
+      "charge_id": "FEE-0099-1",
+      "verdict": "UNCERTAIN",
+      "claim_amount_usd": 0.0,
+      "matched_evidence": [],
+      "explanation": "AI evaluation could not be completed. No recovery claim was created. Reason: Gemini response was not valid JSON: Extra data: line 2 column 1 (char 368)",
+      "status": "pending_review"
+    }
+  ]
+}
